@@ -182,7 +182,6 @@ Possibilidade de:
     ↓
     Confirmação
 
-### V3 - Painel administrativo
 Posteriormente:
 
 - painel administrativo;
