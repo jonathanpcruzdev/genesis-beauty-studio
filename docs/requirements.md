@@ -58,8 +58,7 @@ A definir.
 - Depilação
 - Cílios
 - Sobrancelhas
-- Cabeleireiro
-- Estética
+- Tranças & Penteados
 
 Cada serviço deverá possuir uma página própria com informações detalhadas e CTA para contato via WhatsApp.
 
@@ -84,8 +83,7 @@ Páginas de serviços
 ├── Depilação
 ├── Cílios
 ├── Sobrancelhas
-├── Cabeleireiro
-└── Estética
+├── Tranças & Penteados
 
 ---
 
