@@ -54,10 +54,10 @@ A definir.
 ## 6. Serviços
 
 - Maquiagem
-- Manicure
+- Manicure & Pedicure
 - Depilação
-- Cílios
-- Sobrancelhas
+- Extensão de Cílios
+- Design de Sobrancelha
 - Tranças & Penteados
 
 Cada serviço deverá possuir uma página própria com informações detalhadas e CTA para contato via WhatsApp.
