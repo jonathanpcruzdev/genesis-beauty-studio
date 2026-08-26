@@ -17,9 +17,11 @@
 
     --color-popover: #fefdfb;
     --color-popover-foreground: #322527;
-    
+
     --color-accent: #c5598f;
     --color-accent-foreground: #fefdfb;
+
+    --color-border: #eae3dc;
 
     /*=== Typography ===*/
     --font-heading: "Cormorant Garamond", ui-serif, Georgia, serif;
