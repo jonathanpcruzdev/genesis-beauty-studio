@@ -1,0 +1,43 @@
+.services__grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
+    gap: var(--space-32);
+}
+
+.card-service {
+    display: flex;
+    flex-direction: column; /* Empilha a imagem e o texto na vertical */
+    height: 100%; /* Faz com que todos os cards da mesma linha tenham exatamente a mesma altura */
+    background-color: var(--color-surface);
+    border-radius: var(--border-radius-md);
+    overflow: hidden; /* Garante que a imagem respeite o arredondamento do card */
+}
+
+/* Controlando a proporção da imagem do card */
+.card-service__image-wrapper {
+    width: 100%;
+    aspect-ratio: 16 / 10; /* Deixa as fotos dos serviços em um formato horizontal elegante */
+    position: relative; /* Necessário para a etiqueta de duração flutuar aqui dentro */
+}
+
+.card-service__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Lembra dele? Não deixa a foto distorcer! */
+}
+
+.card-service__duration {
+    position: absolute;
+    top: var(--space-12);    /* Afasta um pouco da borda de cima */
+    right: var(--space-12);  /* Afasta um pouco da borda da direita */
+    
+    /* Estilização da etiqueta premium */
+    background-color: rgba(0, 0, 0, 0.6); /* Fundo escuro semi-transparente */
+    backdrop-filter: blur(4px);            /* Um leve desfoque atrás dela */
+    color: #fff;
+    
+    padding: var(--space-4) var(--space-12);
+    font-size: var(--font-size-xs);
+    font-weight: var(--font-weight-medium);
+    border-radius: var(--border-radius-full); /* Formato de pílula */
+}
